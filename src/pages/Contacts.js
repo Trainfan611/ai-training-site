@@ -262,12 +262,12 @@ function Contacts() {
                     <div>
                       <h6 className="fw-bold mb-1">Мессенджеры</h6>
                       <div className="d-flex gap-2">
-                        <a href="#" className="btn btn-outline-success btn-sm">
+                        <button className="btn btn-outline-success btn-sm">
                           WhatsApp
-                        </a>
-                        <a href="#" className="btn btn-outline-primary btn-sm">
+                        </button>
+                        <button className="btn btn-outline-primary btn-sm">
                           Telegram
-                        </a>
+                        </button>
                       </div>
                     </div>
                   </div>

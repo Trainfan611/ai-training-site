@@ -51,8 +51,8 @@ function Footer() {
             </p>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <a href="#" className="text-muted text-decoration-none me-3">Политика конфиденциальности</a>
-            <a href="#" className="text-muted text-decoration-none">Договор оферты</a>
+            <span className="text-muted text-decoration-none me-3">Политика конфиденциальности</span>
+            <span className="text-muted text-decoration-none">Договор оферты</span>
           </div>
         </div>
       </div>
