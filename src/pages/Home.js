@@ -36,50 +36,6 @@ function Home() {
         </div>
       </section>
 
-      {/* Преимущества */}
-      <section className="py-5">
-        <div className="container py-5">
-          <div className="text-center mb-5">
-            <h2 className="fw-bold">Почему выбирают нас</h2>
-          </div>
-          <div className="row g-4">
-            <div className="col-md-6 col-lg-3">
-              <div className="card feature-card h-100 p-4 shadow-sm">
-                <div className="card-body">
-                  <div className="display-4 mb-3">🎯</div>
-                  <h5 className="fw-bold">Практический подход</h5>
-                  <p className="text-muted mb-0">
-                    80% времени — практика на реальных кейсах вашей компании
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <div className="card feature-card h-100 p-4 shadow-sm">
-                <div className="card-body">
-                  <div className="display-4 mb-3">👨‍🏫</div>
-                  <h5 className="fw-bold">Эксперты-практики</h5>
-                  <p className="text-muted mb-0">
-                    Преподаватели с опытом внедрения ИИ в крупных компаниях
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-lg-3">
-              <div className="card feature-card h-100 p-4 shadow-sm">
-                <div className="card-body">
-                  <div className="display-4 mb-3">📋</div>
-                  <h5 className="fw-bold">Индивидуальная программа</h5>
-                  <p className="text-muted mb-0">
-                    Адаптируем контент под специфику вашего бизнеса
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Программы обучения */}
       <section className="py-5">
         <div className="container py-5">
