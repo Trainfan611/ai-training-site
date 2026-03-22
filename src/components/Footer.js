@@ -34,14 +34,14 @@ function Footer() {
           </div>
           <div className="col-lg-3 col-md-6">
             <h6 className="fw-bold mb-3">Контакты</h6>
-            <ul className="list-unstyled text-muted">
+            <ul className="list-unstyled text-light">
               <li className="mb-2">
-                <a href="mailto:vlf.ru@yandex.ru" className="text-muted text-decoration-none">
+                <a href="mailto:vlf.ru@yandex.ru" className="text-light text-decoration-none">
                   📧 vlf.ru@yandex.ru
                 </a>
               </li>
               <li className="mb-2">
-                <a href="tel:+79605051622" className="text-muted text-decoration-none">
+                <a href="tel:+79605051622" className="text-light text-decoration-none">
                   📞 +7 (960) 505-16-22
                 </a>
               </li>
