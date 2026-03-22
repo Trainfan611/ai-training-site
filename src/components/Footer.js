@@ -35,8 +35,16 @@ function Footer() {
           <div className="col-lg-3 col-md-6">
             <h6 className="fw-bold mb-3">Контакты</h6>
             <ul className="list-unstyled text-muted">
-              <li className="mb-2">📧 vlf.ru@yandex.ru</li>
-              <li className="mb-2">📞 +7 (960) 505-16-22</li>
+              <li className="mb-2">
+                <a href="mailto:vlf.ru@yandex.ru" className="text-muted text-decoration-none">
+                  📧 vlf.ru@yandex.ru
+                </a>
+              </li>
+              <li className="mb-2">
+                <a href="tel:+79605051622" className="text-muted text-decoration-none">
+                  📞 +7 (960) 505-16-22
+                </a>
+              </li>
               <li className="mb-2">📍 г. Москва, Нахимовский проспект, д. 9, корп. 2</li>
               <li className="mb-2">ИП Мартынов Д.А.</li>
               <li className="mb-0">ИНН 370208899823</li>
@@ -51,8 +59,15 @@ function Footer() {
             </p>
           </div>
           <div className="col-md-6 text-center text-md-end">
-            <span className="text-muted text-decoration-none me-3">Политика конфиденциальности</span>
-            <span className="text-muted text-decoration-none">Договор оферты</span>
+            <Link to="/user-agreement" className="text-muted text-decoration-none me-3">
+              Пользовательское соглашение
+            </Link>
+            <Link to="/privacy" className="text-muted text-decoration-none me-3">
+              Политика конфиденциальности
+            </Link>
+            <Link to="/offer" className="text-muted text-decoration-none">
+              Договор оферты
+            </Link>
           </div>
         </div>
       </div>
